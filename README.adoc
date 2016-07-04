@@ -9,9 +9,9 @@ $: chmod a+x ~/bin/repo
 Download the BSP source:
 
 $: PATH=${PATH}:~/bin
-$: mkdir 3b6-bsp
-$: cd 3b6-bsp
-$: repo init -u https://github.com/ipTronix/3b6-bsp-platform -b jethro
+$: mkdir imecon-bsp
+$: cd imecon-bsp
+$: repo init -u https://github.com/ipTronix/imecon-bsp-platform -b master
 $: repo sync
 
 At the end of the commands you have every metadata you need to start work with.
